@@ -114,9 +114,14 @@ let textone = document.querySelector('.textone').querySelector('h1');
       },16000)
       setTimeout(function(){
         textone.innerHTML = '想见你只想见你';
-        texttwo.innerHTML = '未来过去我只想见你';
+        texttwo.innerHTML = '';
         textthree.innerHTML = '';
       },63000)
+      setTimeout(function(){
+        textone.innerHTML = '';
+        texttwo.innerHTML = '未来过去我只想见你';
+        textthree.innerHTML = '';
+      },64500)
       setTimeout(function(){
         textone.innerHTML = '爱你';
         texttwo.innerHTML = '我愿意';
