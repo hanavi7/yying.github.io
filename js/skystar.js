@@ -1,39 +1,40 @@
 // poem
 var words=[
-    '伤心桥下春波绿',
+    '情不知所起一往而深',
     '曾是惊鸿照影来',
     '当年明月在',
     '曾照彩云归',
-    '归去来兮',
+    '对不起',
     '真堪偕隐',
     '画船听雨眠',
     '愿为江水',
     '与君重逢',
     '一日不见兮',
     '思之若狂',
-    '好想回到那个夏天',
-    '趴在桌子上偷偷看你',
-    '偷偷表白一个叫dmz的女孩',
-    '你曾是我灰色人生中的一道彩虹',
+    '不思量自难忘',
+    '衣带渐宽终不悔为伊消得人憔悴',
+    '偷偷表白一个叫zwy的女孩',
+    '才下眉头却上心头',
     '柳絮空缱绻',
     '南风知不知',
     '我见青山多妩媚',
     '料青山见我也应如是',
     '取次花丛懒回顾',
     '半缘修道半缘君',
-    '三笑徒然当一痴',
+    '昨夜西风凋碧树，独上高楼，望尽天涯路',
     '人生若只如初见',
     '我余光中都是你',
     '人生自是有情痴',
     '此恨不关风与月',
-    '因为你，我多少适应了这个世界',
-    '春蚕到死丝方尽',
-    '蜡炬成灰泪始干',
+    '天边月',
+    '爱你',
+    '众里寻他千百度',
+    '蓦然回首，那人却在，灯火阑珊处',
     '今夜何夕',
     '见此良人',
     '愿我如星君如月',
     '夜夜流光相皎洁',
-    '情不所起',
+    '情不知所起',
     '一往而深',
     '玲珑骰子安红豆',
     '入骨相思知不知',
@@ -102,7 +103,7 @@ let textone = document.querySelector('.textone').querySelector('h1');
       let textthree = document.querySelector('.textthree').querySelector('h1');
 
       setTimeout(function(){
-        textone.innerHTML = '今晚，整片星空将为你一人闪烁';
+        textone.innerHTML = '爱你，写不完的千言万语';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
           texttwo.style.color = '#E8F9FD';
@@ -110,12 +111,17 @@ let textone = document.querySelector('.textone').querySelector('h1');
           textthree.style.color = '#E8F9FD';
           textthree.style.fontFamily = '楷体'
           texttwo.innerHTML = '';
-      },28000)
+      },16000)
       setTimeout(function(){
-        textone.innerHTML = '从前从前,有个人爱你很久';
-        texttwo.innerHTML = '但偏偏，风渐渐';
-        textthree.innerHTML = '把距离吹的好远';
-      },112500)
+        textone.innerHTML = '想见你只想见你';
+        texttwo.innerHTML = '未来过去我只想见你';
+        textthree.innerHTML = '';
+      },63000)
+      setTimeout(function(){
+        textone.innerHTML = '爱你';
+        texttwo.innerHTML = '我愿意';
+        textthree.innerHTML = '';
+      },91000)
 
 
  
